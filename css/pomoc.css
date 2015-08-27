@@ -1,0 +1,51 @@
+.middle {
+	width: 100%;
+	padding-bottom: 5%;
+}
+.middle h1,
+.middle h3,
+.middle p {
+	text-align: center;
+}
+
+.middle h1 {
+	padding:3% 0 3% 0;
+	font-size: 30px;
+	color: #444444;
+	font-family: 'PT Sans Narrow', sans-serif;
+}
+.middle .padd {
+	padding:3% 0 1% 0;
+	font-size: 30px;
+	color: #444444;
+	font-family: 'PT Sans Narrow', sans-serif;
+}
+.middle .down {
+	padding-bottom: 0.5%;
+}
+.middle .padd2 {
+	padding-top: 0.5%;
+	font-size: 40px;
+	font-family: 'PT Sans Narrow', sans-serif;
+	color: #444444;
+}
+.footer .sadrzaj_futera_levo p span {
+	padding-top: 10px;
+}
+@media screen and (max-width: 500px) {
+	.imgs img {
+		width: 60%;
+	}
+	.middle h1 {
+		font-size: 20px;
+		padding: 7% 0 7% 0;
+	}
+	.middle .padd2 {
+		padding: 7% 0 7% 0;
+		font-size: 30px;
+	}
+	.middle .padd {
+		font-size: 25px;
+		padding: 7% 0 7% 0;
+	}
+}

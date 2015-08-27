@@ -1,0 +1,689 @@
+@media (max-width: 79rem) {
+  .wrap {
+    padding: 0 2rem;
+  }
+
+}
+
+@media (max-width: 37.5rem) {
+  .wrap {
+    padding: 0 1.5rem;
+  }
+  .doniraj {
+  	font-size: 1.5em;
+  }
+}
+@media (max-width: 79rem) {
+
+  .logo_title {
+  	height: 120px;
+    margin-left: 2rem;
+    padding-bottom: 43px;
+  }
+  .doniraj {
+  	font-size: 1em;
+  }
+}
+
+@media (max-width: 37.6rem) {
+  .logo_title {
+    margin-left: 1.5rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .logo {
+    margin-right:0.5em;
+  }
+  h1.title {
+    font-size: 2rem;
+  }
+}
+/* expanded nav menu */
+@media (min-width: 61rem) {
+
+  .navicon {
+    display: none;
+  }
+
+  .navmenu {
+    display: block;
+  }
+
+  ul.navmenu {
+    float: right;
+    display: inline-table;
+    padding: 0 1em;
+  }
+
+  ul.navmenu li {
+    float: left;
+  }
+
+  ul.navmenu li a {
+    line-height: 7.1875rem;
+    padding: 0 1.5625rem;
+  }
+
+  /* expanded nav child menu */
+  ul.navmenu li ul {
+    position: absolute;
+    z-index: 999;
+    top: 100%;
+    left: 0;
+  }
+
+  ul.navmenu li ul li {
+    float: none;
+  }
+
+  ul.navmenu li ul li a {
+    width: 100%;
+    line-height: 4.5rem;                                  
+    padding: 0 2.1875rem;
+  }
+
+}
+
+/* collapsed nav menu */
+@media (max-width: 61rem) {
+
+  .navicon {
+    float: right;
+    font-size: 1.65rem;
+    line-height: 2.8125rem;
+    text-align: center;
+    width: 3.4rem;
+    margin: 2.1875rem 2rem 2.1875rem 0;
+    cursor: pointer;
+  }
+
+  .navmenu {
+    clear: left;
+    display: none;
+  }
+
+  .navmenu.show {
+    display: block;
+  }
+
+  ul.navmenu li a {
+    width: 100%;
+    line-height: 4.5rem;
+    padding: 0 2.1875rem;
+  }
+
+  /* collapsed nav child menu */
+  ul.navmenu li ul {
+    position: relative;
+    left: 0;
+  }
+
+}
+
+@media (max-width: 37.5rem) {
+  .navicon  {
+    margin-right: 1.5rem;
+  }
+}
+
+
+
+
+/* ==========================================================================
+1500px 1500px 1500px 1500px 1500px 1500px 1500px 1500px 1500px 
+===========================================================================*/
+
+@media screen and (max-width: 1500px) {
+	.doniraj {
+		padding-top: 3%;
+	}
+	.doniraj h2 {
+		font-size: 1.7em;
+	}
+	button {
+   	padding: 1.3em 5.3em;
+   }
+}
+/* ==========================================================================
+1300px 1300px 1300px 1300px 1300px 1300px 1300px 1300px 1300px 1300px
+===========================================================================*/
+
+@media screen and (max-width: 1300px) {
+ .doniraj {
+	padding-top:2%; 
+	}
+.doniraj h2{
+ 	font-size: 1.5em;
+}
+  .doniraj p {
+  	line-height: normal;
+  	font-size: 1em;
+  }
+   .doniraj p span {
+   	font-size: 1em;
+   }
+   button {
+   	/*padding: 1.1em 5em;*/
+   	padding: 3% 13%;
+   }
+   .doniraj button:before {
+   	right: 5%;
+   	font-size: 1.5em;
+   }
+   #psi_i_citat img {
+  padding-left: 15%;
+  margin-bottom: -50px;
+  margin-top: -5%
+}
+.alfa h3{
+ padding-top: 9%;
+ padding-right: 3%;
+}
+
+}
+/* ==========================================================================
+1050px 1050px 1050px 1050px 1050px 1050px 1050px1050px 1050px 1050px 
+===========================================================================*/
+
+@media screen and (max-width: 1050px) {
+
+button span{
+	font-size:1em;
+}
+ .doniraj button:before {
+   	top: 30%;
+   	right: 6%;
+   	font-size: 1.1em;
+   }
+.doniraj p {
+	font-size: .9em;
+}
+.doniraj .flat-button {
+	font-size: 13px;
+}
+#psi_i_citat img {
+  padding-left: 20%;
+  margin-bottom: -50px;
+}
+.alfa h3{
+ padding-top: 11%;
+ padding-right: 3%;
+}
+
+#psi_i_citat img {
+  padding-left: 8%;
+  margin-bottom: -50px;
+  margin-top: -9%;
+}
+#next > span,
+#prev > span {
+  display: block;
+  width: 25px;
+  height: 40px;
+}
+#prev > span {
+    background-size: 50%;
+     background-position: 50% 50%;
+}
+#next > span { 
+   background-size: 50%;
+    background-position: 50% 50%;
+}
+.main {   
+    width: 100%;    
+}
+.para1 { 
+  width: 30%;   
+}
+.para1 h2,
+.para2 h2,
+.para3 h2{
+  font-size: 1.35em;
+  width: 100%;
+}
+.para1, .para2, .para3, p {
+  line-height: 1.5em;
+  font-family: Arial;
+  font-size: 14px;
+}
+.para2{
+   width: 30%; 
+}
+.para3{
+   width: 30%; 
+}
+.staff {
+  width: 100%;
+  
+}
+.covek_i_pas {
+    width: 100%;
+}
+.sadrzaj_futera {
+	width: 100%;
+	padding-left: 3%;
+	padding-right: 4%;
+}
+.sadrzaj_sredina {
+	width: 30%;
+
+}
+.sadrzaj_desno {
+	width: 30%;
+	
+}
+}
+/* ==========================================================================
+800px 800px 800px 800px 800px 800px 800px 800px 800px800px
+===========================================================================*/
+
+@media screen and (max-width: 800px) {
+.logo_title {
+	height: auto;
+	margin-top: 30px;
+	margin-left: 30px; 
+	padding: 0;
+	}	
+h1.title {
+	font-size:  2.625rem;
+}
+.logo {
+	margin-right: 0;
+}
+ .doniraj {
+    display: none; 
+} 
+.mob_tab_rel {
+	display: block;
+}
+.mob_tab_abs {
+	width: 100%;
+}
+.mob_tab_abs h2 {
+	width: 50%;
+	margin-left: 10%;
+	color: #fff;
+	text-align: center;
+	font-family: "Francois One",sans-serif;
+	margin-top: 10%;
+	padding: 1%;
+	background-color:rgba(255,255,255,0.4);
+	text-shadow:0px 1px 1px #222222;
+}
+button:after {
+	background-color: transparent;	
+}
+button:hover {
+   background-color: #253C40;
+	-webkit-transition-duration: 1s; 
+    transition-duration: 1s;
+}
+.small_screen_buttons {
+	display:block;
+	width: 100%;
+	 height: auto;
+  margin: 0 auto; 
+}
+ .small_screen_buttons a {
+	font-size: 1.3em;
+}
+.tab_mob {
+  display: block;
+  font-family: 'entypo', sans-serif;
+	float: left;
+	border-radius:0;	
+}
+.tab_mob2 {
+  display: inline;
+  font-family: 'entypo', sans-serif;
+  float:right;
+  clear:right;
+  margin-right: 0;
+  border-radius:0; 
+}
+.slider-nav {
+	display: none;
+}
+#prev, #next {
+	display: none;
+}
+.alfa {
+  width: 100%;
+}
+.alfa h3{
+ padding-top: 13%;
+}
+#psi_i_citat h2 {  
+    width: 100%;
+    font-size: 1.35em; 
+    padding-top: 4%; 
+    padding-bottom: 1%;   
+}
+#psi_i_citat h2 span a{
+  line-height: .5em;
+  color: #727270;
+}
+#psi_i_citat img {
+  padding-left: 5%;
+  margin-bottom: -50px;
+  margin-top: -12%;
+}
+
+.staff {
+  margin-top: 5%;
+}
+.ko_smo_mi {
+float: left;
+    margin-left: 3%;
+    margin-top: 15%;
+    width: 20%
+}
+.ko_smo_mi h2 { 
+  width: 100%; 
+  text-align: left;
+  font-size: 1.5em;
+  margin-top: 5%;
+}
+
+.img1 {
+  width: 75%;
+}
+.sadrzaj_futera {
+	width: 100%;
+	padding-left: 3%;
+	padding-right:10%;
+}
+.sadrzaj_futera h2 {
+	font-size: 1em;
+	line-height: 2.5em;
+}
+.social h2 {
+	line-height: .7;
+}
+}
+
+/* ==========================================================================
+650px 650px 650px 650px 650px 650px 650px 650px 650px 650px 650px
+===========================================================================*/
+
+@media screen and (max-width: 650px) {
+.mob_tab_abs h2 {
+	width: 50%;
+	margin-left: 10%;
+	color: #fff;
+	text-align: center;
+	font-family: "Francois One",sans-serif;
+	margin-top: 10%;
+	padding: 1%;
+	background-color:rgba(255,255,255,0.4);
+	font-size: 1.1em;
+	font-weight: thin;
+}
+.slika {
+  width: 100%;
+  height: 390px;
+  background: url(images/main_bg.png) no-repeat 0 0;
+  background-size: 200%;  
+}
+#psi_i_citat img {
+  padding-left: 0%;
+  margin-bottom: -50px;
+  margin-top: -20%;
+}
+.alfa h3{
+font-size: 1.25em;
+}
+.slider-nav {  
+  text-align: right; 
+}
+.main a {
+	text-decoration: underline;
+}
+.flat-button-main {
+	display: none;
+}
+.para1 img,
+.para2 img
+{
+	padding-left: 5%;
+	padding-right: 2%;
+}
+.para1 span,
+.para2 span,
+.para3 span {
+  display:block;
+ 
+}
+.para1 h2,
+.para2 h2,
+.para3 h2{
+  font-size: 1.15em; 
+  padding-left: 5%;
+
+}
+.para1 p,
+.para2 p {
+	padding-left: 5%;
+}
+
+.para1 {
+	width: 49%;
+	margin: 0;
+} 
+.para2 {
+	width: 49%;
+	margin: 1%;
+	margin-top: 0;
+}
+.para3 {
+	float: left;
+	width: 100%;
+	clear: both;
+}
+.para3 h2 {
+	margin-top: 0;
+}
+.para3 img {
+	float: left;
+	width: 50%;
+	padding-right:3%; 
+}
+.img1 h5 {
+  margin-bottom: 1%;
+  margin-top: 0;
+}
+.img1 p {
+  font-size: 13px;
+}
+.sadrzaj_desno p{
+	width: 100%;
+	margin-bottom: 0;
+}
+.sadrzaj_desno h2 {
+	width: 50%;
+}
+.sadrzaj_desno span {	
+    font-size: .8em;
+    padding-right: 5%;
+}
+
+}
+/* ==========================================================================
+500px 500px 500px 500px 500px 500px 500px 500px 500px 500px 500px 500px 500px
+===========================================================================*/
+@media screen and (max-width: 500px) {
+	
+.mob_tab_abs h2 {	
+	font-size: .85em;
+}
+.small_screen_buttons a {
+	font-size: 1.1em;
+}
+.udomite_psa p {
+	font-size: .9em;	
+}
+.alfa {
+  width: 100%;
+}
+#psi_i_citat h2 {  
+    width: 100%;
+    font-size: 1.2em;    
+    padding-bottom: 3%; 
+}
+
+#psi_i_citat h2 span a{
+  line-height: .5em;
+  color: #727270;
+}
+.alfa h3{
+font-size: 1em;
+}
+.hepi_dog {
+	display: none;
+}
+.dog_responsive {
+	display: inline;
+	padding-bottom: 16px;
+}
+.para1 h2,
+.para2 h2,
+.para3 h2 {
+  font-size: .99em; 
+}
+
+.staff {
+  margin-top: 5%;
+  padding-bottom: 10%;
+}
+.ko_smo_mi {
+display: block;
+float: none;
+    margin: 0 auto;
+    margin-top: 5%;
+     margin-bottom: 5%;
+    width: 30%;
+}
+.ko_smo_mi .strelice {
+	display: none;
+}
+
+.ko_smo_mi h2 { 
+  width: 100%; 
+  text-align: left;
+  font-size: 1.5em;
+  margin-top: 5%;
+}
+
+.img1 {
+  width: 100%;
+  margin-top: 0;
+}
+.img1  p {
+  line-height: 1.1em;
+}
+
+
+.sadrzaj_futera {
+	padding: 1%
+}
+.sadrzaj_futera_levo {
+
+	display: none;
+}
+.sadrzaj_sredina {
+	width: 49%;
+	padding: 0;
+	margin: 0;
+	padding-left: 5%;
+	float: left;
+}
+.sadrzaj_desno {
+	float: left;
+    margin-left:50px;
+    overflow: hidden;
+    padding-bottom: 0;
+    padding-left: 0;
+    width: 30%;
+}
+.social {
+  overflow: hidden;
+  width: 220px;
+  padding-top: 15%;
+}
+.sadrzaj_futera_tab {
+  display: block;
+  clear: both;
+  width: 100%;
+  float: left;
+  padding-left: 5%;
+
+}
+.sadrzaj_futera_tab {
+	padding-bottom: 0;
+}
+.sadrzaj_futera_tab img {
+	float: left;
+	width: 40%;
+	
+}
+.sadrzaj_futera_tab h2 {
+  color: #fff;
+  width: 90%;
+  padding-left: 44px;
+  padding-bottom: 5px;
+  line-height: 2.5em;
+  background: url("images/arr_icon.png") no-repeat scroll 0 0;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+.sadrzaj_futera_tab p span {
+	display: block;
+  padding-bottom: 10px;
+  font-size: 1.3em;
+}
+.sadrzaj_futera_tab p{
+  width: 55%;
+  float: left;
+  color: #fff;
+  font-family: arial;
+  font-size: 14px;
+  line-height: 1.29em;
+  padding-left: 5%;
+ margin-top: 0;
+}
+.sadrzaj_futera_tab a {
+	color: #fff;
+	display: inline-block;
+	padding-top: 2%;
+}
+.social {
+	margin: 0;
+}
+}
+
+@media screen and (max-width: 350px) {
+	.mob_tab_abs h2 {	
+	font-size: .8em;
+	margin-top: 7%;
+	margin-left: 0;
+	background: transparent;
+}
+#psi_i_citat h2 {  
+    width: 100%;
+    font-size: 1em;    
+    padding-bottom: 0; 
+}
+.alfa h3{
+text-align: right;
+}
+.small_screen_buttons a {
+	font-size: .9em;
+}
+.img1 img{
+  width: 40%;
+  padding: 0;
+}
+.img1 a {
+  right: 40%;
+}
+}

@@ -1,0 +1,116 @@
+.o_nama {
+	width: 75%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.o_nama p {
+	width: 100%;
+	margin: 0 auto;
+	padding-right: 2%;
+	color: #515151;
+
+}
+.o_nama h1 {
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	padding: 3% 0;
+	font-family: "Francois One",sans-serif;
+	font-size: 1.5em;
+	color: #515151;
+}
+.o_nama img {
+	
+	float: left;
+	width: 50%;
+	padding-right:5%; 
+	padding-bottom:5%; 
+	
+}
+
+.prvi_pas {
+	clear: both;
+	width: 75%;
+	margin: 0 auto;
+	color: #515151;
+	overflow: hidden;
+	padding-bottom: 5%;
+	
+}
+.prvi_pas h1 {
+	width: 100%;
+	margin: 0 auto;
+	text-align: left;
+	padding: 0;
+	padding-bottom: 3.5%;
+	font-family: "Francois One",sans-serif;
+	font-size: 1.5em;
+	color: #515151;
+}
+.prvi_pas p {
+	padding-left: 5%;
+
+}
+.prvi_pas img {
+	float: left;
+	padding-right: 3%;
+	width: 50%;
+}
+.prvi_pas_levo {
+	padding-top: 5%;
+width: 60%;
+float: left;
+}
+.prvi_pas_levo p {
+	padding-right: 5%;
+}
+.prvi_pas_desno {
+	width: 40%;
+	float: left;
+	text-align: center;
+	padding-top: 5%;
+}
+.prvi_pas_desno .center img{
+padding: 0;
+float: none;
+}
+ .prvi_pas_desno h2 {
+ 	font-family: "Francois One",sans-serif;;
+ }
+.prvi_pas_desno h2,
+.prvi_pas_desno p {
+	margin: 0;
+	padding: 0;
+}
+
+@media screen and (max-width: 1050px) {
+	.prvi_pas img {
+	width:50%;
+	height: 50%;
+}
+@media screen and (max-width: 800px) {
+	.prvi_pas_levo {
+		float: none;
+		width: 100%;
+
+	}
+	.prvi_pas_levo h1,
+	.prvi_pas_desno h2 {
+		font-size: 1.2em;
+	}
+	.prvi_pas_desno {
+		clear: both;
+		width: 100%;
+	}
+}
+}
+@media screen and (max-width: 650px) {
+	.prvi_pas img {
+	width:70%;
+	height: 70%; 
+	float: none;
+}
+.o_nama img {
+	width: 100%;
+}
+}
